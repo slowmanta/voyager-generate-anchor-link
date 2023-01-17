@@ -1,0 +1,18 @@
+{
+    "name": "nammt/voyager-generate-anchor-link",
+    "description": "This package used for make anchor link for specific content in website.",
+    "type": "library",
+    "require": {
+        "tcg/voyager": "^1.5",
+        "illuminate/support": "^6|^7|^8|^9",
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NamMT",
+            "email": "mactungnam96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

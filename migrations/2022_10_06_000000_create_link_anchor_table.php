@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateLinkAnchorTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('anchor_link', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('anchor_text')->unique();
+            $table->text('anchor_link');
+            $table->text('fields');
+            $table->text('log');
+            $table->tinyInteger('status');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('link_anchor');
+    }
+}
