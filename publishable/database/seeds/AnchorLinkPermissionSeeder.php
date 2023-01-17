@@ -10,6 +10,6 @@ class AnchorLinkPermissionSeeder extends Seeder
      */
     public function run()
     {
-        Permission::generateFor('settings');
+        Permission::generateFor('anchor_link');
     }
 }
