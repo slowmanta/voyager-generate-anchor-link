@@ -7,7 +7,7 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Composer;
 use NamMT\VoyagerGenerateAnchorLink\VoyagerGenerateAnchorLinkServiceProvider;
 use Symfony\Component\Console\Input\InputOption;
-use TCG\Voyager\Seed;
+use NamMT\VoyagerGenerateAnchorLink\Seed;
 
 class InstallCommand extends Command
 {

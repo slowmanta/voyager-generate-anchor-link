@@ -4,7 +4,7 @@ namespace NamMT\VoyagerGenerateAnchorLink;
 
 
 use Illuminate\Support\ServiceProvider;
-use TCG\Voyager\Seed;
+use NamMT\VoyagerGenerateAnchorLink\Seed;
 
 class VoyagerGenerateAnchorLinkServiceProvider extends ServiceProvider
 {
